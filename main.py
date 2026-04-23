@@ -26,5 +26,5 @@ def get_data():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run("main:app", host="192.168.0.250", port=3030, reload=True)  # reload for development
+    uvicorn.run("main:app", host="0.0.0.0", port=3030, reload=True)  # reload for development
     
