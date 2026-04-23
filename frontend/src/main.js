@@ -1,5 +1,5 @@
 async function loadData() {
-  const res = await fetch("http://192.168.0.250:3030/data");
+  const res = await fetch("https://renderdelpoymenttest.onrender.com/data");
   const data = await res.json();
 
   document.getElementById("output").textContent =
